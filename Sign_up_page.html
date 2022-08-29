@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Create an account - GCS Electronics</title>
+</head>
+<body>
+
+<h2>Create an account</h2><br>
+
+<form method="post" enctype="multipart/form-data" autocomplete="on">
+   <fieldset>
+    <legend>Account Information:</legend><br>
+	<label for="fname">First Name:
+	</label><br>
+	<input autofocus type="text" name="fname" id="fname" required size="40"><br><br>
+
+	<label for="lname">Last Name:</label><br>
+	<input type="text" name="lname" id="lname" required size="40"><br><br>
+
+    <label for="email">Email:</label><br>
+	<input type="email" name="email" id="email" required size="40"><br><br>
+
+	  <label for="username">Username:</label><br>
+	  <input type="text" name="username" id="username" size="20" maxlength="20" required><br><br>
+
+	<label for="customer_type">Customer Type:</label><br>
+	<select id="customer_type" name="customer_type">
+		<option value="private">Private</option>
+		<option value="business">Business</option>
+	</select><br><br>
+
+	<label for="telephone">Telephone:</label><br>
+	<input type="tel" name="telephone" id="telephone" placeholder="1868-123-4567" pattern="[1-8]{4}-[0-9]{3}-[0-9]{4}" required size="13" maxlength="13"><br><br>
+
+	<label for="mobile">Mobile:</label><br>
+	<input type="tel" name="mobile" id="mobile" placeholder="868-123-4567" pattern="[6-8]{3}-[0-9]{3}-[0-9]{4}"  size="12" maxlength="12"><br><br>
+</fieldset><br>
+
+<fieldset><br>
+  <legend>Billing Address:</legend>
+    <label for="street_name">Street Name:</label><br>
+    <input type="text" name="address" id="address" required size="40"><br><br>
+
+    <label for="number">Number:</label><br>
+    <input type="tel" name="number" id="number" placeholder="1868-123-4567" pattern="[1-8]{4}-[0-9]{3}-[0-9]{4}" size="13" maxlength="13"><br><br>
+
+    <label for="extension">Extension:</label><br>
+    <input type="tel" id="extension" name="extension" size="4"><br><br>
+
+    <label for="zip_code">ZIP/Postal Code:</label><br>
+    <input type="text" name="zip_code" id="zip_code" size="4" maxlength="7" required><br><br>
+
+    <label for="city">City:</label><br>
+    <input type="text" name="city" id="city" required size="40" maxlength="40"><br><br>
+
+    <label for="province">State/Province:</label><br>
+    <select id="province" name="province">
+
+		<option value="arima">Arima</option>
+
+		<option value="chaguanas">Chaguanas</option>
+
+		<option value="couva-tabaquite-talparo">Couva-Tabaquite-Talparo</option>
+
+		<option value="diego_martin">Diego Martin</option>
+
+		<option value="eastern_tobago">Eastern Tobago</option>
+
+		<option value="penal-debe">Penal-Debe</option>
+
+		<option value="point_fortin">Point Fortin</option>
+
+		<option value="port_of_spain">Port of Spain</option>
+
+		<option value="princes_town">Princes Town</option>
+
+		<option value="rio_claro-mayaro">Rio Claro-Mayaro</option>
+
+		<option value="san_fernando">San Fernando</option>
+
+		<option value="san_juan-laventille">San Juan-Laventille</option>
+
+    <option value="sangre_grande">Sangre Grande</option>
+
+    <option value="siparia">Siparia</option>
+
+    <option value="tunapuna-piarco">Tunapuna-Piarco</option>
+
+    <option value="western_tobago">Western Tobago</option>
+</select><br><br>
+
+    <label for="country">Country:</label><br>
+    <select id="country" name="country">
+    	<option value="trinidad_and_tobago">Trinidad and Tobago</option>
+    </select><br><br>
+</fieldset><br>
+
+<fieldset><br>
+  <legend>Password:</legend>
+    <label for="password">Password:</label><br>
+    <input type="password" name="password" id="password" size="20" maxlength="20" required><br><br>
+
+    <label for="confirm_password">Confirm Password:</label><br>
+    <input type="confirm_password" name="confirm_password" id="confirm_password" size="20" maxlength="20" required><br><br>
+</fieldset><br><br>
+
+	<input type="submit" value="Submit">
+
+</form>
+
+
+
+
+
+
+</body>
+</html>
